@@ -4,32 +4,28 @@
 help.doc
 """
 import argparse
-from SPARQLWrapper import SPARQLWrapper, JSON
+import depida
 
 parser = argparse.ArgumentParser(description='search related things(movie,music or book) you might wanna know')
 parser.add_argument('input', type = str,
                     help = 'input what u wanna search')
-parser.add_argument('-s','--specify_search', type = str, choices=['movie', 'music', 'book'],
-                    help = 'specify a search type')
+parser.add_argument('-s','--type', type = str, choices=['movie', 'music', 'book'],
+                    help = 'specify a search type, none input will search all three things')
 args = parser.parse_args()
 
-sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-query = """select distinct(?film) ?f_name
+search = depida.Search("http://dbpedia.org/sparql")
+query1 = """select distinct ?publication ?p_name
             where {
-                ?film rdf:type dbo:Film;
-                      rdfs:label ?f_name.
-                filter regex(?f_name,"love") 
+                ?publication rdf:type dbo:%s;
+                      rdfs:label ?p_name.
+                filter regex(?p_name,"%s") 
             }
-            group by ?film
+            group by ?publication
             limit 10
-"""
-sparql.setQuery(query)
-sparql.setReturnFormat(JSON)
-results = sparql.query().convert()
+"""%(args.specify_search, args.input)
 
-output = []
-for result in results["results"]["bindings"]:
-    print(result["film"]["value"],'#'*3,result['f_name']['value'])
+results = search.sult(query)
+print(results)
 
 
 
