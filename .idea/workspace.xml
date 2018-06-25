@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f71525b4-d3cf-470f-b3a8-7cf08097ae43" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbpidia.py" beforeDir="false" afterPath="$PROJECT_DIR$/dbpidia.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kg.py" beforeDir="false" afterPath="$PROJECT_DIR$/kg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question2sparql.py" beforeDir="false" afterPath="$PROJECT_DIR$/question2sparql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question2word.py" beforeDir="false" afterPath="$PROJECT_DIR$/question2word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question_temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/question_temp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +22,8 @@
       <file leaf-file-name="porg.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/porg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="16" />
+            <state relative-caret-position="195">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -33,20 +31,17 @@
       <file leaf-file-name="question2word.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question2word.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#171#183#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kg.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kg.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="90">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
               <folding>
                 <element signature="e#41#56#0" expanded="true" />
               </folding>
@@ -54,10 +49,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="dbpidia.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbpidia.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="question2sparql.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question2sparql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="405">
               <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="e#153#173#0" expanded="true" />
@@ -66,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="e#145#165#0" expanded="true" />
               </folding>
@@ -81,20 +85,11 @@
       <file leaf-file-name="question_temp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question_temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="1575">
               <caret line="105" column="36" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="36" />
               <folding>
                 <element signature="e#362#422#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="match.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/refo/match.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -115,8 +110,8 @@
       <find>decode</find>
       <find>SPARQL_PREXIX</find>
       <find>.decode('utf-8')</find>
-      <find>personname</find>
       <find>print</find>
+      <find>personname</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -134,9 +129,10 @@
         <option value="$PROJECT_DIR$/question_temp.py" />
         <option value="$PROJECT_DIR$/question2sparql.py" />
         <option value="$PROJECT_DIR$/question2word.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/depida.py" />
+        <option value="$PROJECT_DIR$/dbpidia.py" />
         <option value="$PROJECT_DIR$/kg.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -313,7 +309,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881798" visible="true" weight="0.16095617" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
@@ -324,7 +319,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917318" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32917318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22308892" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45085803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.501182" side_tool="true" weight="0.16095617" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -393,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/porg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/depida.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -407,19 +395,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question_temp.py">
+    <entry file="file://$PROJECT_DIR$/question2word.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="105" column="36" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="36" />
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/porg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="14" />
           <folding>
-            <element signature="e#362#422#0" expanded="true" />
+            <element signature="e#41#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbpidia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/question2sparql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="405">
           <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding>
             <element signature="e#153#173#0" expanded="true" />
@@ -427,32 +436,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/question_temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="36" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="36" />
+          <folding>
+            <element signature="e#362#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="e#145#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question2word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#171#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="e#41#56#0" expanded="true" />
           </folding>
         </state>
       </provider>

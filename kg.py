@@ -4,36 +4,30 @@
 help.doc
 """
 import argparse
-import depida
+import dbpidia
 
-parser = argparse.ArgumentParser(description='search related things(movie,music or book) you might wanna know')
+parser = argparse.ArgumentParser(description='search related things(Film, Game, Book) you might wanna know')
 parser.add_argument('input', type = str,
                     help = 'input what u wanna search')
-parser.add_argument('-s','--type', type = str, choices=['movie', 'music', 'book'],
+parser.add_argument('type', type = str, choices=['Film', 'Game', 'Book'],
                     help = 'specify a search type, none input will search all three things')
 args = parser.parse_args()
 
-search = depida.Search("http://dbpedia.org/sparql")
-query1 = """select distinct ?publication ?p_name
+search = dbpidia.Search("http://dbpedia.org/sparql")
+
+
+query = """select ?publication sample(?p_name)
             where {
                 ?publication rdf:type dbo:%s;
                       rdfs:label ?p_name.
                 filter regex(?p_name,"%s") 
             }
             group by ?publication
+            order by desc(count(?publication))
             limit 10
-"""%(args.specify_search, args.input)
+""" % (args.type, args.input)
 
-results = search.sult(query)
-print(results)
-
-
-
-# if args.specify_search == 'movie':
-#     print(search_result, args.specify_search)
-# elif args.specify_search == 'music':
-#     print(search_result, args.specify_search)
-# elif args.specify_search == 'book':
-#     print(search_result, args.specify_search)
-# else:
-#     print(search_result, "all")
+result = search.sult(query)
+for i in result:
+    print(i['publication']['value'], i['callret-1']['value'])
+# print(result)

@@ -14,5 +14,5 @@ class Search():
         self.sparql.setQuery(query)
         self.sparql.setReturnFormat(JSON)
         results = self.sparql.query().convert()
-        # return [result for result in results["results"]["bindings"]]
-        return results
+        return [result for result in results["results"]["bindings"]]
+        # return results

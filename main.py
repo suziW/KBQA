@@ -16,7 +16,7 @@ if __name__ == '__main__':
     # TODO 初始化自然语言到SPARQL查询的模块，参数是外部词典列表。
     q2s = question2sparql.Question2Sparql()
 
-    question = "吴孟达演过的电影"
+    question = "成龙演过的电影"
     my_query = q2s.get_sparql(question)
     print(my_query)
     # if my_query is not None:
